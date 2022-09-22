@@ -2,10 +2,11 @@ import java.util.Scanner;
 public class PrimeFactors {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
-        System.out.print("Enter the Number :");
+        System.out.print("Enter the Number  :");
         int num=sc.nextInt();
         sc.close();
         int temp=2;
+        System.out.print("Prime Factors are :");
         while(num>1){
             if(num%temp==0){
                 System.out.print(temp+" ");
